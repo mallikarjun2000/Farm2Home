@@ -1,0 +1,28 @@
+{
+  "name": "farm2home",
+  "version": "1.0.0",
+  "description": "E Commerce Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "author": "Harshith Venkatesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.17",
+    "sequelize": "^5.21.11",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
+  }
+}
