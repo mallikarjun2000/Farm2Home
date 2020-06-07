@@ -17,7 +17,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-router.post("/", isAuth, isAdmin, async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     console.table(req.body.name);
 
